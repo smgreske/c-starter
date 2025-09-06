@@ -1,0 +1,14 @@
+{
+  "name": "c-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/app.exe",
+  "scripts": {
+    "build": "gcc -Iinclude src/main.c -o build/app",
+    "start": "cd build && app.exe",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
