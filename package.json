@@ -4,8 +4,8 @@
   "description": "",
   "main": "./build/app.exe",
   "scripts": {
-    "build": "gcc -Iinclude src/main.c -o build/app",
-    "start": "cd build && app.exe",
+    "build": "gcc -Iinclude src/main.c src/matrix_utils.c -o app",
+    "start": "app.exe",
     "dev": "npm run build && npm run start"
   },
   "keywords": [],
